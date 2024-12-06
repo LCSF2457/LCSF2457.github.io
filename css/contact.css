@@ -1,0 +1,26 @@
+.main {
+    padding: 35px;
+}
+
+fieldset {
+    margin-bottom: 25px;
+}
+
+form, #main-fieldset {
+    height: 98%;
+    flex-grow: 1;
+}
+
+ol {
+    margin-left: 20px; 
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+legend {
+    font-weight: bold;
+    color: var(--accent-color);
+    font-size: 1.5em;
+}

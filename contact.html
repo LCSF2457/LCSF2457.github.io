@@ -1,0 +1,120 @@
+<!-- Student Name: Antonio Stefan
+Student #: c0865441 -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Antonio's Fire Pits: Contact Us</title>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="images/favicon.ico">
+
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/contact.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="site-banner rounded shadow">
+            <img class="banner-image rounded" src="images/firepit_banner.webp" alt="burning wood in a firepit, cooking marshmellows over flame">
+        </header>
+
+        <nav class="navbar-mobile rounded shadow">
+            <a class="border-bottom" href="index.html">Home</a>
+            <a class="border-bottom" href="about.html">About</a>
+            <a class="border-bottom" href="team.html">Our Team</a>
+            <a class="border-bottom" href="specials.html">Specials</a>
+            <a class="border-bottom" href="training.html">Training</a>
+            <a class="border-bottom" href="media.html">Media</a>
+            <a class="border-bottom" href="faqs.html">FAQs</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+
+        <nav class="navbar-desktop rounded shadow"> 
+            <!-- logo in top left corner that links to home page  -->
+            <a href="index.html">
+                <img style="color: white;" src="images/logo.png" width="35" height="35" alt="company logo">
+            </a>
+            
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="specials.html">Specials</a></li>
+                <li><a href="training.html">Training</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <main class="main rounded shadow">
+                <form>
+                    <fieldset class="rounded shadow">
+                        <legend>Personal Information</legend>
+    
+                        <ol>
+                            <li>
+                                <label for="name">Full Name:</label>
+                                <input type="text" id="name" name="name" required placeholder="Enter your full name" autofocus>
+                            </li>
+                            <li>
+                                <label for="email">Email Address:</label>
+                                <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                            </li>
+                            <li>
+                                <label for="phone">Phone Number:</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                            </li>
+                        </ol>
+                    </fieldset>
+    
+                    <fieldset class="rounded shadow">
+                        <legend>Extra</legend>
+    
+                        <ol>
+                            <li>
+                                <label for="query">Your Query:</label>
+                                <textarea id="query" name="query" rows="4" placeholder="Tell us your question or request" required></textarea>
+                            </li>
+                            <li>
+                                <label for="date">Preferred Contact Date:</label>
+                                <input type="date" id="date" name="date">
+                            </li>
+                            <li>
+                                <label>Preferred Method of Contact:</label>
+                                <input type="radio" id="phone-contact" name="contact-method" value="phone">
+                                <label for="phone-contact">Phone</label>
+                                <input type="radio" id="email-contact" name="contact-method" value="email" checked>
+                                <label for="email-contact">Email</label>
+                            </li>
+                            <li>
+                                <label for="newsletter">Subscribe to our Newsletter:</label>
+                                <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                            </li>
+                            <li>
+                                <label for="inquiry-type">Type of Inquiry:</label>
+                                <select id="inquiry-type" name="inquiry-type">
+                                    <option value="general">General Inquiry</option>
+                                    <option value="sales">Sales</option>
+                                    <option value="support">Support</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </li>
+                            <li>
+                                <button type="submit">Submit Request</button>
+                                <button type="reset">Reset Form</button>
+                            </li>
+                        </ol>
+                    </fieldset>
+                </form>
+        </main>
+
+        <footer class="footer">
+            <p>
+                &#169; Copyright 2099. All Rights Reserved.
+                <br><a href="mailto:info@antoniosfirepits.com">Request information</a>
+                <br>Antonio Stefan&nbsp;&nbsp;c0865441
+            </p>
+        </footer>
+    </body>
+</html>
